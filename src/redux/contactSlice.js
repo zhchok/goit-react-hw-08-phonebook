@@ -61,7 +61,7 @@ export const contactSlice = createSlice({
 
 export const contactReducer = contactSlice.reducer;
 
-export const { add, remove, search } = contactSlice.actions;
+export const { search } = contactSlice.actions;
 
 // const persistConfig = {
 // 	key: "contacts",
