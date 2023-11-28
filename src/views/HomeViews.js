@@ -14,7 +14,7 @@ const styles = {
 
 const HomeView = () => (
 	<div style={styles.container}>
-		<h1 style={styles.title}>Книга контактів</h1>
+		<h1 style={styles.title}>Contacts book</h1>
 	</div>
 );
 

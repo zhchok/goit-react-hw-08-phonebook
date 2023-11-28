@@ -47,27 +47,27 @@ export default function RegisterView() {
 	return (
 		<div>
 			<Helmet>
-				<title>Сторінка регістрації</title>
+				<title>Registration page</title>
 			</Helmet>
-			<h1>Створіть акаунт</h1>
+			<h1>Create an account</h1>
 
 			<form onSubmit={handleSubmit} style={styles.form} autoComplete="off">
 				<label style={styles.label}>
-					Имя
+					Name
 					<input type="text" name="name" value={name} onChange={handleChange} />
 				</label>
 
 				<label style={styles.label}>
-					Почта
+					Email
 					<input type="email" name="email" value={email} onChange={handleChange} />
 				</label>
 
 				<label style={styles.label}>
-					Пароль
+					Password
 					<input type="password" name="password" value={password} onChange={handleChange} />
 				</label>
 
-				<button type="submit">Зареєструватись</button>
+				<button type="submit">Register</button>
 			</form>
 		</div>
 	);

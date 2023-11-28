@@ -11,10 +11,10 @@ export default function UserMenu() {
 
 	return (
 		<Box display="flex" alignItems="center">
-			<Name>Добро пожаловать, {name}</Name>
+			<Name>Welcome, {name}</Name>
 			<Avatar />
 			<button type="button" onClick={() => dispatch(authOperations.logOut())}>
-				Выйти
+				Log out
 			</button>
 		</Box>
 	);

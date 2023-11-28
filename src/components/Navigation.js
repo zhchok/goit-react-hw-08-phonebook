@@ -14,8 +14,8 @@ const Link = styled(NavLink)`
 
 const Navigation = () => (
 	<nav>
-		<Link to="/">Главная</Link>
-		<Link to="/contacts">Контакти</Link>
+		<Link to="/">Home</Link>
+		<Link to="/contacts">Contacts</Link>
 	</nav>
 );
 
